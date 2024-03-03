@@ -3,14 +3,13 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 64px;
   font-weight: normal;
 }
 
-a,
-.green {
+a {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #42b883;
   transition: 0.4s;
   padding: 3px;
 }
@@ -21,15 +20,21 @@ a,
   }
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+.view {
+  padding: 32px;
+  background-color: var(--vt-c-indigo);
+  border-radius: 16px;
+  text-align: center;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+h4 {
+  font-size: 18px;;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.2;
 }
