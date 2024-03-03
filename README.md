@@ -23,3 +23,5 @@ yarn run build
 ```sh
 yarn run lint
 ```
+
+![img.png](./src/assets/screenshot.png)
