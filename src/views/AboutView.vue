@@ -1,15 +1,8 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="view">
+    <h2>Expense Tracker App</h2>
+    <p>
+      This is a simple Expense Tracker app built with <a href="https://vuejs.org/" target="_blank">Vue.js</a>
+    </p>
   </div>
 </template>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
